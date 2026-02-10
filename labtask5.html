@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Part A: Metadata -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal academic profile showcasing educational background, skills, and contact information for internship and academic review opportunities">
+    <meta name="keywords" content="academic profile, student portfolio, computer science, web development, internship, education">
+    <meta name="author" content="Alex Morgan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Academic Profile</title>
+</head>
+<body>
+    <!-- Part B: Semantic Page Layout -->
+    <header>
+        <h1>rokibul hasan sourav</h1>
+        <p>Computer Science Student | Web Developer | Research Assistant</p>
+        
+        <nav>
+            <ul>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Biography Section -->
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>I am a passionate Computer Science undergraduate with a strong interest in web technologies, data structures, and human-computer interaction. Currently pursuing my Bachelor's degree with a focus on full-stack development and user experience design.</p>
+            <p>My academic journey has been complemented by hands-on projects including responsive web applications, database management systems, and collaborative software development using agile methodologies.</p>
+        </section>
+        
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Educational Background</h2>
+            
+            <!-- Part C: Education Table -->
+            <table>
+                <caption>Academic Qualifications</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Degree</th>
+                        <th scope="col">Institution</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor of Science in Computer Science</td>
+                        <td>AIUB</td>
+                        <td>2021 - Present</td>
+                        <td>3.85/4.0 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>gaibandha government boys high school</td>
+                        <td>boys High School</td>
+                        <td>2017 - 2021</td>
+                        <td>4.0/4.0 GPA</td>
+                    </tr>
+                    <tr>
+                        <td>Web Development Certification</td>
+                        <td>Online Coding Academy</td>
+                        <td>2022</td>
+                        <td>Distinction</td>
+                    </tr>
+                    <tr>
+                        <td>Data Structures & Algorithms</td>
+                        <td>University Extension Program</td>
+                        <td>2023</td>
+                        <td>Grade A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Contact Form Section -->
+        <section id="contact">
+            <h2>Contact Form</h2>
+            <p>Please use this form to get in touch regarding internship opportunities, academic collaboration, or research projects.</p>
+            
+            <!-- Part D: Advanced Contact Form -->
+            <form action="#" method="post">
+                <!-- Part E: Accessibility and Semantics - using labels for every input -->
+                <div>
+                    <label for="name">Full Name: *</label><br>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name" maxlength="100">
+                </div>
+                <br>
+                
+                <div>
+                    <label for="email">Email Address: *</label><br>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com" maxlength="150">
+                </div>
+                <br>
+                
+                <div>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" maxlength="12">
+                    <small>Format: 123-456-7890</small>
+                </div>
+                <br>
+                
+                <div>
+                    <label for="message">Message: *</label><br>
+                    <textarea id="message" name="message" required placeholder="Please enter your message here..." rows="6" maxlength="1000"></textarea>
+                </div>
+                <br>
+                
+                <div>
+                    <input type="submit" value="Send Message">
+                    <input type="reset" value="Clear Form">
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <h3>Contact Information</h3>
+        <p>Email: sourav.rokibul@student.techuniversity.edu</p>
+        <p>LinkedIn: linkedin.com/in/alexmorgan</p>
+        <p>GitHub: github.com/sourav48512-dev</p>
+        <p>&copy; 2023 rokibul sourav. All rights reserved. | Academic Profile</p>
+    </footer>
+</body>
+</html>
