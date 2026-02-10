@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    
+    <!-- Part A: Basic Form Structure -->
+    <form action="#" method="post">
+        
+        <!-- Part C: Fieldset and Legend - Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <!-- Part B: Input Fields with Part E: Accessibility -->
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            <br>
+            
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <br>
+            
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <br>
+            
+            <div>
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                
+                <input type="radio" id="preferNotToSay" name="gender" value="preferNotToSay">
+                <label for="preferNotToSay">Prefer not to say</label>
+            </div>
+        </fieldset>
+        
+        <br>
+        
+        <!-- Part C: Fieldset and Legend - Academic Information -->
+        <fieldset>
+            <legend>Academic Information</legend>
+            
+            <div>
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">Select Department</option>
+                    <option value="computerScience">Computer Science</option>
+                    <option value="electricalEngineering">Electrical Engineering</option>
+                    <option value="businessAdministration">Business Administration</option>
+                    <option value="biomedicalSciences">Biomedical Sciences</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="physics">Physics</option>
+                </select>
+            </div>
+            <br>
+            
+            <div>
+                <label>Skills:</label>
+                <input type="checkbox" id="programming" name="skills" value="programming">
+                <label for="programming">Programming</label>
+                
+                <input type="checkbox" id="dataAnalysis" name="skills" value="dataAnalysis">
+                <label for="dataAnalysis">Data Analysis</label>
+                
+                <input type="checkbox" id="webDevelopment" name="skills" value="webDevelopment">
+                <label for="webDevelopment">Web Development</label>
+                
+                <input type="checkbox" id="mobileDevelopment" name="skills" value="mobileDevelopment">
+                <label for="mobileDevelopment">Mobile Development</label>
+                
+                <input type="checkbox" id="databaseManagement" name="skills" value="databaseManagement">
+                <label for="databaseManagement">Database Management</label>
+                
+                <input type="checkbox" id="machineLearning" name="skills" value="machineLearning">
+                <label for="machineLearning">Machine Learning</label>
+            </div>
+        </fieldset>
+        
+        <br>
+        
+        <!-- Part D: Form Controls -->
+        <div>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset Form">
+        </div>
+    </form>
+</body>
+</html>
